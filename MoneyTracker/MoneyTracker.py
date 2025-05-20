@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-df = pd.read_csv(r"C:\Users\dinka\OneDrive\VisualStudioC\example1\MoneyTracker\transactions_latvia.csv")
+df = pd.read_csv('MoneyTracker/transactions_latvia.csv')
 
 categories = df['Kategorija'].unique()
 print(f"Kopā kategorijas: {len(categories)}")
